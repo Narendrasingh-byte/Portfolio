@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080a0f">
+<title>Narendra Singh — Web Developer | CSE (AI)</title>
+<meta name="description" content="Portfolio of Narendra Singh, a 3rd-year Computer Science & Engineering (AI) student, web developer and AI-focused developer from MIET, Meerut.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo" aria-label="Narendra Singh home">NS<span>.</span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+      <a href="#about" class="nav-link"><span>01</span>About</a>
+      <a href="#skills" class="nav-link"><span>02</span>Skills</a>
+      <a href="#projects" class="nav-link"><span>03</span>Projects</a>
+      <a href="#journey" class="nav-link"><span>04</span>Journey</a>
+      <a href="#contact" class="nav-link"><span>05</span>Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Let's talk</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-grid"></div>
+  <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+  <div class="hero-inner section-inner">
+    <div class="hero-copy">
+      <p class="hero-eyebrow reveal">CSE (AI) • WEB DEVELOPER • MIET MEERUT</p>
+      <h1 class="hero-title reveal">Hi, I'm <span class="grad-text">Narendra Singh.</span><br>Building ideas into <span class="outline-text">interactive</span><br>digital experiences.</h1>
+      <p class="hero-description reveal">I'm a Computer Science & Engineering (AI) student and developer passionate about web development, software engineering, problem solving, and emerging technologies. I build practical applications across web, mobile, AI and blockchain.</p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">View My Projects <span>↗</span></a>
+        <a href="#resume" class="btn btn-ghost" data-placeholder="Resume URL">Download Resume <span>↓</span></a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        <a href="#github" class="btn btn-ghost">GitHub ↗</a>
+      </div>
+    </div>
+
+    <div class="terminal reveal" id="terminal" aria-label="Developer terminal">
+      <div class="terminal-bar"><span class="term-dot red"></span><span class="term-dot yellow"></span><span class="term-dot green"></span><span class="terminal-title">narendra@portfolio ~</span></div>
+      <div class="terminal-body">
+        <p><span class="prompt">$</span> whoami</p>
+        <p class="terminal-output">Narendra Singh</p>
+        <p><span class="prompt">$</span> role</p>
+        <p class="terminal-output"><span id="typedRole"></span><span class="cursor-blink">▋</span></p>
+        <p><span class="prompt">$</span> focus</p>
+        <p class="terminal-output"><span class="code-key">C</span> • <span class="code-key">Java</span> • <span class="code-key">Python</span> • <span class="code-key">JavaScript</span> • <span class="code-key">React</span> • <span class="code-key">AI</span>  </p>
+        <p><span class="prompt">$</span> status</p>
+        <p class="terminal-output status-line"><span class="status-dot"></span> Building & learning</p>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll"><span>Scroll to explore</span><div class="scroll-line"></div></div>
+</section>
+
+<section class="section" id="about">
+  <div class="section-inner about-grid">
+    <div class="section-head reveal"><p class="eyebrow">01 — About me</p><h2 class="section-title">Curious by nature.<br><span class="muted">Builder by choice.</span></h2></div>
+    <div class="about-body reveal">
+      <p class="lead">I'm a 3rd-year B.Tech Computer Science & Engineering (Artificial Intelligence) student at Meerut Institute of Engineering & Technology (MIET), Meerut.</p>
+      <p>I enjoy developing real-world applications and turning ideas into functional products. My strongest interests sit at the intersection of programming, web development, full-stack engineering, AI exploration and emerging Web3 technologies.</p>
+      <p>I'm comfortable working across frontend and backend technologies, while continuously strengthening my Data Structures & Algorithms, software engineering and problem-solving fundamentals.</p>
+      <div class="about-stats">
+        <div class="stat"><strong>3rd</strong><span>Year CSE (AI)</span></div>
+        <div class="stat"><strong>05+</strong><span>Highlighted projects</span></div>
+        <div class="stat"><strong>1st</strong><span>Runner-Up • Hackathon</span></div>
+        <div class="stat"><strong>Full</strong><span>Stack development focus</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section skills-section" id="skills">
+  <div class="section-inner">
+    <div class="section-head reveal"><p class="eyebrow">02 — Technical skills</p><h2 class="section-title">My toolkit,<br><span class="muted">without the fake percentages.</span></h2><p class="section-subtitle">Programming is a core strength. The rest of the stack reflects what I build with, explore and keep learning.</p></div>
+    <div class="skills-grid" id="skillsGrid"></div>
+    <div class="core-strip reveal"><span>CORE CS</span><div>Data Structures & Algorithms</div><div>Object-Oriented Programming</div><div>Database Management</div><div>Computer Networks</div><div>Cyber Security</div></div>
+  </div>
+</section>
+
+<section class="section projects-section" id="projects">
+  <div class="section-inner">
+    <div class="section-head reveal"><p class="eyebrow">03 — Selected projects</p><h2 class="section-title">Ideas turned into<br><span class="grad-text">working products.</span></h2><p class="section-subtitle">A mix of full-stack systems, mobile applications, AI concepts and programming projects.</p></div>
+    <div class="project-grid" id="projectGrid"></div>
+  </div>
+</section>
+
+<section class="section achievement-section" id="achievement">
+  <div class="section-inner achievement-card reveal">
+    <div class="achievement-badge">ACHIEVEMENT</div>
+    <div><p class="eyebrow">Hackathon Experience</p><h2>1st Runner-Up</h2><p>Participated in a college hackathon involving problem identification, coding, project development, PPT presentation, team collaboration and a 36-hour hackathon round.</p></div>
+    <div class="achievement-points"><span>Problem solving</span><span>Team collaboration</span><span>Event management</span><span>Leadership</span><span>Rapid development</span><span>Presentation</span></div>
+  </div>
+</section>
+
+<section class="section journey-section" id="journey">
+  <div class="section-inner">
+    <div class="section-head reveal"><p class="eyebrow">04 — Development journey</p><h2 class="section-title">From fundamentals<br><span class="muted">to emerging tech.</span></h2></div>
+    <div class="journey" id="journeyTrack"></div>
+    <div class="education-card reveal"><div class="edu-year">2026 — 2027</div><div><p class="eyebrow">Education</p><h3>B.Tech — Computer Science & Engineering (Artificial Intelligence)</h3><p>Meerut Institute of Engineering & Technology (MIET), Meerut • Currently in 3rd Year</p></div></div>
+  </div>
+</section>
+
+<section class="section github-section" id="github">
+  <div class="section-inner github-layout">
+    <div class="section-head reveal"><p class="eyebrow">Coding & GitHub</p><h2 class="section-title">Code, commits<br><span class="grad-text">and experiments.</span></h2><p class="section-subtitle">Featured repository links are intentionally left as placeholders until the real GitHub URLs are provided.</p><a class="btn btn-primary" href="#contact">Add GitHub Profile ↗</a></div>
+    <div class="repo-grid" id="repoGrid"></div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="section-inner contact-grid">
+    <div class="contact-copy reveal"><p class="eyebrow">05 — Contact</p><h2 class="section-title">Have an idea?<br><span class="grad-text">Let's build it.</span></h2><p class="lead">For collaborations, project discussions, internships or developer opportunities, use the contact form or replace the placeholders below with your actual links.</p>
+      <div class="contact-links">
+        <a href="mailto:YOUR_EMAIL@example.com" class="contact-link"><span>Email</span><strong>YOUR_EMAIL@example.com ↗</strong></a>
+        <a href="#" class="contact-link placeholder-link"><span>GitHub</span><strong>YOUR_GITHUB_URL ↗</strong></a>
+        <a href="#" class="contact-link placeholder-link"><span>LinkedIn</span><strong>YOUR_LINKEDIN_URL ↗</strong></a>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <div class="form-row"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" required><span class="form-error" data-for="name"></span></div>
+      <div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com" required><span class="form-error" data-for="email"></span></div>
+      <div class="form-row"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="Project / collaboration / opportunity" required><span class="form-error" data-for="subject"></span></div>
+      <div class="form-row"><label for="message">Message</label><textarea id="message" name="message" rows="6" placeholder="Tell me about your idea..." required></textarea><span class="form-error" data-for="message"></span></div>
+      <button type="submit" class="btn btn-primary btn-full">Send Message <span>↗</span></button>
+      <p class="form-success" id="formSuccess">Form validated. Connect your email service/backend to send messages.</p>
+    </form>
+  </div>
+</section>
+
+<section id="resume" class="resume-anchor" aria-label="Resume placeholder"></section>
+</main>
+
+<footer class="footer"><div class="section-inner footer-inner"><a href="#home" class="nav-logo">NS<span>.</span></a><p>© <span id="year"></span> Narendra Singh. Built with code, curiosity and continuous learning.</p><a href="#home" class="back-top">↑</a></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
