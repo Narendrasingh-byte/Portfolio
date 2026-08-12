@@ -25,7 +25,7 @@ A modern personal portfolio website showcasing my skills, projects, education, a
 ## Run Locally
 
 ```bash
-git clone <your-repository-url>
+git clone - https://github.com/Narendrasingh-byte/Portfolio
 cd portfolio
 ```
 
